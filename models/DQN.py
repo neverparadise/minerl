@@ -40,3 +40,5 @@ class DQN(nn.Module):
             return random.randint(0, self.num_actions-1)
         else:
             return torch.argmax(out)
+
+
